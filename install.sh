@@ -15,7 +15,7 @@ mv  -v ./source/oidc_backends_config.xml $GALAXY_DIRECTORY/config
 chmod u=rwx,g=rwx,o=rwx $GALAXY_DIRECTORY/config/oidc_backends_config.xml
 
 mv  -v ./source/egi.py /home/export/galaxy_venv/lib/python3.8/site-packages/social_core/backends/
-chmod u=rwx,g=rwx,o=rwx home/export/galaxy_venv/lib/python3.8/site-packages/social_core/backends/egi.py
+chmod u=rwx,g=rwx,o=rwx /home/export/galaxy_venv/lib/python3.8/site-packages/social_core/backends/egi.py
 
 #echo 'enable_oidc: true' >> ${GALAXY_DIRECTORY}/config/galaxy.yml
 #echo 'oidc_config_file: oidc_config.xml' >> ${GALAXY_DIRECTORY}/config/galaxy.yml
